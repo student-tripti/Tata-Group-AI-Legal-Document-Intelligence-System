@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BarChart3, ShieldAlert, Clock, CheckCircle2, AlertTriangle, ArrowUpRight, Award, Zap } from 'lucide-react';
 
-const API_BASE_URL = 'https://tata-ai-backend-og7t.onrender.com';
+const API_BASE_URL = 'https://https://tata-group-ai-legal-document.onrender.com';
 
 export const LegalOpsDashboard: React.FC = () => {
   const [metrics, setMetrics] = useState<any>(null);
