@@ -6,7 +6,7 @@ import {
   BookOpen, Sparkles, Cpu, Key, Sliders, Save, CheckCircle, XCircle, Activity
 } from 'lucide-react';
 
-const API_BASE_URL = 'https://tata-ai-backend-og7t.onrender.com';
+const API_BASE_URL = 'https://https://tata-group-ai-legal-document.onrender.com';
 
 interface AdminDocRecord {
   job_id: string;
