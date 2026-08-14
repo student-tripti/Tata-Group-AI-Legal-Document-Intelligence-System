@@ -12,7 +12,7 @@ interface DocumentWorkspaceProps {
   _onActiveJobChange?: (jobId: string) => void; 
 }
 
-const API_BASE_URL = 'https://https://tata-group-ai-legal-document.onrender.com';
+const API_BASE_URL = 'https://tata-group-ai-legal-document.onrender.com';
 
 const getSessionUser = () => {
   const emailRegex = /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/;
