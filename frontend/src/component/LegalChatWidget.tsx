@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import { Bot, Send, X, Maximize2, Minimize2, Loader2, Award, Sparkles } from 'lucide-react';
 
-const API_BASE_URL = 'https://https://tata-group-ai-legal-document.onrender.com';
+const API_BASE_URL = 'https://tata-group-ai-legal-document.onrender.com';
 
 interface ChatMessage {
   role: 'user' | 'assistant';
