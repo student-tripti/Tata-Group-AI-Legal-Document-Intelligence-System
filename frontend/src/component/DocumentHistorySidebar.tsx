@@ -15,7 +15,7 @@ interface SidebarProps {
   onSelectDocument?: (jobId: string) => void;
 }
 
-const API_BASE_URL = 'https://https://tata-group-ai-legal-document.onrender.com';
+const API_BASE_URL = 'https://tata-group-ai-legal-document.onrender.com';
 
 export const DocumentHistorySidebar: React.FC<SidebarProps> = ({ onSelectDocument }) => {
   const [history, setHistory] = useState<HistoryItem[]>([]);
