@@ -20,7 +20,7 @@ app = FastAPI(title="Tata AI Legal Intelligence API", version="1.0.0")
 # CORS HARDENING: FIXES THE RENDER CROSS-ORIGIN BLOCK
 # -------------------------------------------------------------------------
 allowed_origins = [
-    "https://tata-ai-frontend.onrender.com",
+    "tata-group-ai-legal-document-dev1.onrender.com",
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
