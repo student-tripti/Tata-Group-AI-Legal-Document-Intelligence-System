@@ -87,7 +87,7 @@ function App() {
     }
 
     try {
-      const response = await axios.put('https://https://tata-group-ai-legal-document.onrender.com/api/v1/auth/profile', updatePayload, {
+      const response = await axios.put('https://tata-group-ai-legal-document.onrender.com/api/v1/auth/profile', updatePayload, {
         headers: { Authorization: `Bearer ${token}` }
       });
       
