@@ -16,7 +16,7 @@ interface AuthProps {
 type AuthView = 'login' | 'register' | 'forgot';
 
 // Locked Production Base URL
-const API_BASE_URL = 'https://https://tata-group-ai-legal-document.onrender.com';
+const API_BASE_URL = 'https://tata-group-ai-legal-document.onrender.com';
 
 export const AuthGate: React.FC<AuthProps> = ({ onLoginSuccess }) => {
   const [view, setView] = useState<AuthView>('login');
